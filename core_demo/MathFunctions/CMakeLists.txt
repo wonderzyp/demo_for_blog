@@ -44,6 +44,6 @@ target_link_libraries(MathFunctions PUBLIC tutorial_compiler_flags)
 # building on windows
 target_compile_definitions(MathFunctions PRIVATE "EXPORTING_MYMATH")
 
-add_custom_command(TARGET MathFunctions POST_BUILD
-  COMMAND ${CMAKE_STRIP} --strip-all $<TARGET_FILE:MathFunctions>
-)
+#add_custom_command(TARGET MathFunctions POST_BUILD
+#  COMMAND ${CMAKE_STRIP} --strip-all $<TARGET_FILE:MathFunctions>
+#)
