@@ -1,0 +1,4 @@
+## 示例编译命令
+```bash
+make -C /home/yep/workplace/linux-5.15.202  ARCH=arm64 LLVM=1 M=$PWD modules
+```
